@@ -16,13 +16,14 @@ public class App {
         // Second part:
         int numeroWhile = 0;
         while (numeroWhile < 3) {
-            System.out.println("while:" + numeroWhile);
             numeroWhile++;
+            System.out.println("while:" + numeroWhile);
         }
 
         // Third part:
-        numeroWhile = 4;
+        numeroWhile = 3;
         do {
+            numeroWhile++;
             System.out.println("do-while:" + numeroWhile);
         } while (numeroWhile < 3);
 
